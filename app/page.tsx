@@ -437,7 +437,7 @@ export default function Home() {
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                          github.com/udaychaudhary
+                          github.com/udayyyy-09
                         </a>
                       </div>
                     </div>
