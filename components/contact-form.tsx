@@ -85,7 +85,7 @@ export function ContactForm() {
     setIsSubmitting(true)
 
     try {
-      const response = await fetch("http://localhost:5000/send-email", {
+      const response = await fetch("http://192.168.56.1:5000/send-email", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
