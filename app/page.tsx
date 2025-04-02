@@ -61,7 +61,7 @@ export default function Home() {
           <div className="hidden items-center gap-4 md:flex">
             <ThemeToggle />
             <Button asChild size="sm">
-              <a href="/InternResume.pdf" download>
+              <a href="/FinalResume.pdf" download>
                 <Download className="mr-2 h-4 w-4 text-white" /> Resume
               </a>
             </Button>
@@ -95,7 +95,7 @@ export default function Home() {
                     </Link>
                   </Button>
                   <Button asChild variant="outline" size="lg">
-                    <a href="/InternResume.pdf" download>
+                    <a href="/FinalResume.pdf" download>
                       <Download className="mr-2 h-4 w-4" /> Download Resume
                     </a>
                   </Button>
