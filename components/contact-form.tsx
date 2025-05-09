@@ -1,7 +1,7 @@
 "use client"
 
 import type React from "react"
-
+// import emailjs from '@emailjs/browser';
 import { useState } from "react"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
@@ -75,7 +75,6 @@ export function ContactForm() {
   }
 
   const handleSubmit = async (e: React.FormEvent) => {
-    
     e.preventDefault()
 
     if (!validateForm()) {
@@ -83,46 +82,10 @@ export function ContactForm() {
     }
 
     setIsSubmitting(true)
-
-    try {
-      const response = await fetch("http://192.168.56.1:5000/send-email", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      });
   
-      if (response.ok) {
-        toast({
-          title: "Message sent!",
-          description: "Thanks for reaching out. I'll get back to you soon.",
-          duration: 5000,
-        });
+   
   
-        // Reset form
-        setFormData({
-          name: "",
-          email: "",
-          subject: "",
-          message: "",
-        });
-      } else {
-        toast({
-          title: "Something went wrong",
-          description: "Your message couldn't be sent. Please try again.",
-          variant: "destructive",
-          duration: 5000,
-        });
-      }
-    } catch (error) {
-      console.error("Error:", error);
-    } finally {
-      setIsSubmitting(false);
-    }
-  };
   
-
   return (
     <Card>
       <CardHeader>
@@ -191,4 +154,4 @@ export function ContactForm() {
     </Card>
   )
 }
-
+}

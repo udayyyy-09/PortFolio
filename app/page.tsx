@@ -61,7 +61,7 @@ export default function Home() {
           <div className="hidden items-center gap-4 md:flex">
             <ThemeToggle />
             <Button asChild size="sm">
-              <a href="/New_Resume.pdf" download>
+              <a href="/Resume_ uday.pdf" download>
                 <Download className="mr-2 h-4 w-4 text-white" /> Resume
               </a>
             </Button>
@@ -77,15 +77,15 @@ export default function Home() {
             <div className="grid gap-12 md:grid-cols-2 md:items-center">
               <div className="space-y-6">
                 <div className="space-y-2">
-                  <Badge variant="outline" className="px-3 py-1 text-sm">
-                    Frontend Developer
+                  <Badge variant="outline" className="px-3 text-sm">
+                    FullStack Developer
                   </Badge>
                   <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">
                     Uday Chaudhary
                   </h1>
                   <p className="text-gray-500 dark:text-gray-400 md:text-xl">
                     Creative and detail-oriented Frontend Developer specializing
-                    in React.js and Tailwind CSS
+                    in React.js and javascript
                   </p>
                 </div>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
@@ -95,7 +95,7 @@ export default function Home() {
                     </Link>
                   </Button>
                   <Button asChild variant="outline" size="lg">
-                    <a href="/New_Resume.pdf" download>
+                    <a href="/Resume_ uday.pdf" download>
                       <Download className="mr-2 h-4 w-4" /> Download Resume
                     </a>
                   </Button>
@@ -260,6 +260,7 @@ export default function Home() {
                     "Built with Vite for fast development and optimized performance",
                   ]}
                   githubLink="https://github.com/udayyyy-09/tripplanner"
+                  liveLink="https://tripmate-olive.vercel.app/"
                 />
                 <ProjectCard
                   title="Supply Link - Supplier Interaction Portal"
@@ -387,7 +388,7 @@ export default function Home() {
                   Interested in working together? Let's connect!
                 </p>
               </div>
-              <div className="grid gap-8 md:grid-cols-2">
+              <div className="grid gap-5 ">
                 <Card>
                   <CardHeader>
                     <CardTitle>Contact Information</CardTitle>
@@ -443,7 +444,7 @@ export default function Home() {
                     </div>
                   </CardContent>
                 </Card>
-                <ContactForm />
+                
               </div>
             </div>
           </div>
