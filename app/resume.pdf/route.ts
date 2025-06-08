@@ -4,6 +4,6 @@ import { NextResponse } from "next/server"
 // In a real application, you would serve an actual PDF file
 export async function GET() {
   // Redirect to a placeholder PDF or serve a static PDF file
-  return NextResponse.redirect("https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf")
+  return NextResponse.redirect("https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/Res_uday.pdf")
 }
 
