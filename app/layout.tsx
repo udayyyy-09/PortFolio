@@ -8,9 +8,9 @@ import { Toaster } from "@/components/ui/toaster"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Uday Chaudhary | Frontend Developer",
+  title: "Uday Chaudhary | FullStack Developer",
   description:
-    "Portfolio of Uday Chaudhary, a creative and detail-oriented Frontend Developer specializing in React.js and Tailwind CSS.",
+    "Portfolio of Uday Chaudhary, a creative and detail-oriented FullStack Developer specializing in React.js , express , mongoDB",
 }
 
 export default function RootLayout({

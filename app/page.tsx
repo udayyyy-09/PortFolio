@@ -84,8 +84,8 @@ export default function Home() {
                     Uday Chaudhary
                   </h1>
                   <p className="text-gray-500 dark:text-gray-400 md:text-xl">
-                    Creative and detail-oriented Frontend Developer specializing
-                    in React.js and javascript
+                    Creative and detail-oriented FullStack Developer specializing
+                    in React.js, javascript and Node.js
                   </p>
                 </div>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
@@ -150,7 +150,7 @@ export default function Home() {
               </div>
               <div className="space-y-6 text-lg">
                 <p>
-                I'm a Frontend Developer skilled in React.js, JavaScript, and Tailwind CSS, with a strong focus on building responsive, user-friendly web applications. I also have a basic understanding of backend technologies and strong problem-solving skills, enabling me to collaborate on full-stack projects. I'm passionate about delivering impactful solutions, especially in fast-paced environments like hackathons.
+                I'm a FullStack Developer skilled in React.js, JavaScript, and Node.js , with a strong focus on building responsive, user-friendly web applications. I also have a basic understanding of backend technologies and strong problem-solving skills, enabling me to collaborate on full-stack projects. I'm passionate about delivering impactful solutions, especially in fast-paced environments like hackathons.
                 </p>
                 <p>
                   Currently pursuing my B.Tech in Computer Science & Engineering
@@ -337,6 +337,7 @@ export default function Home() {
                     <SkillBadge name="Node.js" level="Intermediate" />
                     <SkillBadge name="Express" level="Intermediate" />
                     <SkillBadge name="IndexedDB" level="Intermediate" />
+                    <SkillBadge name="MongoDB" level="Intermediate" />
                   </div>
                 </TabsContent>
                 <TabsContent value="tools" className="mt-6">
@@ -352,7 +353,7 @@ export default function Home() {
                     <SkillBadge name="UI/UX Design" level="Intermediate" />
                     <SkillBadge name="Problem Solving" level="Advanced" />
                     <SkillBadge name="Team Collaboration" level="Advanced" />
-                    <SkillBadge name="Hackathons" level="Intermediate" />
+                    <SkillBadge name="Leadership" level="Intermediate" />
                     <SkillBadge name="C++" level="Intermediate" />
                   </div>
                 </TabsContent>
